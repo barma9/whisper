@@ -15,7 +15,7 @@ def read_version(fname="whisper/version.py"):
         globals(),
         frame_locals,
     )
-    return frame_locals["__version__"]
+    return 3.12 #frame_locals["__version__"]
 
 
 requirements = []
